@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .explore-section {
+  background: #f9f9f9;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.explore-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #002147;
+}
+
+.subtext {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.courses-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.course-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  width: 260px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.course-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.course-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.course-card p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .courses-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+</style>
+<body>
+    <section id="explore-courses" class="explore-section">
+        <div class="container">
+          <h2>Explore Our Courses</h2>
+          <p class="subtext">Discover a variety of programs designed to help you thrive in your academic journey.</p>
+      
+          <div class="courses-grid">
+            <div class="course-card">
+              <div class="icon">💻</div>
+              <h3>Computer Science</h3>
+              <p>Master coding, data structures, AI, and software development fundamentals.</p>
+            </div>
+            <div class="course-card">
+              <div class="icon">📊</div>
+              <h3>Business Management</h3>
+              <p>Learn about finance, leadership, entrepreneurship, and real-world strategy.</p>
+            </div>
+            <div class="course-card">
+              <div class="icon">🎨</div>
+              <h3>Design & Multimedia</h3>
+              <p>Develop skills in digital design, animation, and creative storytelling.</p>
+            </div>
+            <div class="course-card">
+              <div class="icon">🔬</div>
+              <h3>Life Sciences</h3>
+              <p>Explore biology, biotechnology, and groundbreaking scientific research.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .about-section {
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-text h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #002147;
+}
+
+.about-text p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text h2 {
+    font-size: 1.8rem;
+  }
+}
+
+</style>
+<body>
+    <section class="about-section" id="about">
+        <div class="container">
+          <div class="about-content">
+            <div class="about-text">
+              <h2>About UniVerse</h2>
+              <p>
+                UniVerse is a leading institution committed to academic excellence and innovation. 
+                We foster a diverse, inclusive, and intellectually vibrant environment where students are empowered to think critically, act ethically, and make a global impact.
+              </p>
+              <p>
+                With world-class faculty, cutting-edge research, and modern infrastructure, we are shaping the future—one student at a time.
+              </p>
+            </div>
+            <div class="about-image">
+              <img src="https://images.unsplash.com/photo-1581091870622-6b8cfc1a019e" alt="About UniVerse" />
+            </div>
+          </div>
+        </div>
+      </section>
+      
+</body>
+</html>

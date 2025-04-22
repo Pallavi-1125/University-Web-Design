@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .courses-section {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  color: #002147;
+  margin-bottom: 10px;
+}
+
+.section-subtext {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.course-card {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.course-card h3 {
+  font-size: 1.2rem;
+  color: #002147;
+  margin-bottom: 10px;
+}
+
+.course-card p {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.course-card .btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #ffcc00;
+  color: #002147;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.course-card .btn:hover {
+  background-color: #e6b800;
+}
+
+</style>
+<body>
+    <section class="courses-section" id="courses">
+        <div class="container">
+          <h2 class="section-heading">Our Courses</h2>
+          <p class="section-subtext">Choose from a wide variety of academic and professional programs.</p>
+      
+          <div class="courses-grid">
+            <div class="course-card">
+              <h3>🖥️ B.Tech in Computer Science</h3>
+              <p>Focus on AI, machine learning, data science, and full-stack development.</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+      
+            <div class="course-card">
+              <h3>📈 BBA - Business Administration</h3>
+              <p>Explore finance, operations, HRM, and international business strategies.</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+      
+            <div class="course-card">
+              <h3>🎨 B.Des - Design & Multimedia</h3>
+              <p>Learn graphic design, video editing, animation, UX/UI, and creative branding.</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+      
+            <div class="course-card">
+              <h3>🔬 B.Sc in Life Sciences</h3>
+              <p>Study biology, microbiology, genetics, and biotechnology with lab experience.</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+      
+            <div class="course-card">
+              <h3>💼 MBA - Master of Business Admin</h3>
+              <p>Advance your career with leadership, marketing, and strategic decision-making skills.</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+      
+            <div class="course-card">
+              <h3>🧠 M.Tech in Artificial Intelligence</h3>
+              <p>Dive into deep learning, NLP, robotics, and AI ethics with hands-on projects.</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+</body>
+</html>
